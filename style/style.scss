@@ -67,6 +67,7 @@ header, footer{
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-bottom: 3.2rem;
     h2{
         font-size: 3.6rem;
     }
@@ -212,6 +213,7 @@ button:hover{
     align-items: center;
     text-align: center;
     margin-bottom: 4rem;
+    margin-top: 10rem;
     button{
         background-color: var(--light-red);
     }
@@ -228,6 +230,7 @@ button:hover{
     }
     p{
         font-size: 1.8rem;
+        line-height: 2.8rem;
     }
     h3{
         font-size: 3.2rem;
@@ -242,6 +245,8 @@ button:hover{
     }
     .title{
         min-width: 57.3rem;
+        max-width: 50%;
+        margin-bottom: 6.4rem;
         h2{
             font-size: 4.4rem;
         }
@@ -302,8 +307,90 @@ button:hover{
     }
 
     .booking{
+        margin-top: 12rem;
         padding: 5.6rem 7.5rem;
     }
 
     
+}
+
+@media screen and (min-width: 1440px) {
+    header,footer{
+        max-width: 70%;
+        min-width: 111rem;
+        button:hover{
+            background-color: var(--blue);
+        }
+    }
+    h3{
+        font-size: 4rem;
+    }
+    .title{
+        margin-bottom: 8rem;
+        p{
+            min-width: 73rem;
+            max-width: 50%;
+        }
+        h2{
+            font-size: 5.6rem;
+        }
+    }
+    .solutions{
+        min-width: 111rem;
+        max-width: 70%;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        grid-template-rows: 18.2rem 15.8rem;
+        .g-d{
+            grid-row: 1/2;
+            grid-column: 1;
+        }
+        .ui{
+            grid-row: 1;
+            grid-column: 2;
+        }
+        .apps{
+            grid-row: 1;
+            grid-column: 3;
+        }
+        .illustration{
+            grid-row: 2;
+            grid-column: 2/4;
+        }
+        .photography{
+            grid-row: 1;
+            grid-column: 4;
+        }
+        .m-g{
+            grid-row: 2;
+            grid-column: 4;
+            min-height: 15.8rem;
+        }
+    }
+    .information{
+        position:static;
+        min-width: 111rem;
+        max-width: 70%;
+        .image-girl{
+            width: 44.5rem;
+            height: 44.5rem;
+        }
+    }
+    .booking{
+        padding: 6.5rem 8rem;
+        min-width: 111rem;
+        max-width: 70%;
+        margin-top: 8.8rem;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        div{
+            max-width: 50%;
+            text-align: left;
+        }
+    }
+    .information, .booking{
+        button:hover{
+            background-color: var(--yellow);
+        }
+    }
 }
