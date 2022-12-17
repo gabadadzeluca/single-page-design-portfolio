@@ -25,12 +25,12 @@ Users should be able to:
 - Navigate the slider using either their mouse/trackpad or keyboard
 
 ### Screenshot
-![](./screenshot.png)
+![](../screenshot.png)
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/gabadadzeluca/single-page-design-portfolio)
-- Live Site URL: [Live URL]()
+- Live Site URL: [Live URL](https://gabadadzeluca.github.io/single-page-design-portfolio/)
 
 ## My process
 
